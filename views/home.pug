@@ -1,0 +1,27 @@
+doctype html
+html
+    include generic/head.pug
+    body
+        include generic/navbar.pug
+        table(class="table table-hover")
+            thead
+                tr
+                    th First Name
+                    th Last Name
+                    th Age
+                    th Origin
+                    th Matches Played
+                    th Wins
+                    th Loses
+                    th Total Score
+                tbody
+                    each contestant in contestants
+                        tr
+                            td= contestant.fname
+                            td= contestant.lname
+                            td= contestant.age
+                            td= contestant.origin
+                            td= contestant.matches.length
+                            td= contestant.wins.length
+                            td= contestant.loses.length
+                            td= contestant.score

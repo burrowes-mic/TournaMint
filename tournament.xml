@@ -1,0 +1,35 @@
+<tournament>
+
+    <contestant id="0" fname="Michael" lname="Burrowes" age="21" origin="Woburn, MA"/>
+    <contestant id="1" fname="Daniel" lname="Ananth" age="24" origin="Woburn, MA"/>
+    <contestant id="2" fname="Travis" lname="Robinson" age="22" origin="Woburn, MA"/>
+    <contestant id="3" fname="A.J." lname="Lease" age="31" origin="Lancaster, PA"/>
+    <contestant id="4" fname="Megan" lname="Lease" age="29" origin="Waldo, FL"/>
+    <contestant id="5" fname="Isaac" lname="McGonagle" age="21" origin="Bedford, MA"/>
+    <contestant id="6" fname="Liam" lname="O'Toole" age="21" origin="Arlington, MA"/>
+    <contestant id="7" fname="Andrew" lname="Jeon" age="20" origin="Nashua, NH"/>
+
+    <phase type="round-robin" id="Group Phase" maxGroupCount="6" maxGroupSize="5" passingCount="8"/>
+    <phase type="double-elimination" allowByes="true"/>
+
+    <!--<rrgroup id="A">
+        <member id="0"/>
+        <member id="1"/>
+        <member id="2"/>
+        <member id="3"/>
+    </rrgroup>
+    <rrgroup id="B">
+        <member id="4"/>
+        <member id="5"/>
+        <member id="6"/>
+        <member id="7"/>
+    </rrgroup>
+
+    <match id="Winners' Semifinal 1" c1="g|A:1" c2="g|B:2"/>
+    <match id="Winners' Semifinal 2" c1="g|A:2" c2="g|B:1"/>
+    <match id="Winners' Final" c1="m|Winners' Semifinal 1:w" c2="m|Winners' Semifinal 2:w"/>
+    <match id="Losers' Semifinal" c1="m|Winners' Semifinal 1:l" c2="m|Winners' Semifinal 2:l"/>
+    <match id="Losers' Final" c1="m|Losers' Semifinal:w" c2="m|Winners' Final:l"/>
+    <match id="Grand Final" c1="m|Losers' Final:w" c2="m|Winners' Final:w"/>-->
+
+</tournament>
